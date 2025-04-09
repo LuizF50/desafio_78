@@ -1,0 +1,20 @@
+{
+  "name": "desafio_78",
+  "version": "1.0.0",
+  "description": "Jornada do Dev em Busca do Café Perdido",
+  "main": "script.js",
+  "scripts": {
+    "build-css": "sass styles.scss styles.css --style compressed",
+    "watch-css": "sass --watch styles.scss styles.css",
+    "dev": "npm run watch-css",
+    "build": "npm run build-css",
+    "start": "npm run dev"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "^1.86.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
